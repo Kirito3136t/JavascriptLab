@@ -1,0 +1,78 @@
+body{
+    background-color:#C3F8FF;
+}
+h1{
+    color:#790252 ;
+    font-size: 70px;
+}
+
+hr{
+    border-style: none;
+    color:blue;
+    border-top-style: double;
+    border-width: 5px;
+    
+}
+.links li{
+    display:inline-block;
+    font-size:30px;
+    padding-left: 0px;
+    padding-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+
+}
+li a:hover {
+    background-color:white;
+    }
+
+.input{
+    font-size: 20px;
+    font-style: italic;
+}
+#space{
+    margin-bottom: 30px;
+}
+.options{
+    font-size: 20px;
+    margin-left: 30px;
+}
+#first{
+    margin-left:39px;
+}
+#second{
+    margin-left: 56px;
+}
+#third{
+    margin-left: 10px;
+}
+#fourth{
+    margin-left:30px
+}
+.tshirt{
+    margin-left: 100px;
+}
+#one{
+    margin-left: 100px;
+}
+#two{
+    margin-left: 80px;
+}
+#three{
+    margin-top: 50px;
+}
+button{
+    font-size: 20px;
+}
+#input1{
+    margin-left: 30px;
+}
+#input2{
+    margin-left: 13px;
+}
+#input3{
+    margin-left: 27px;
+}

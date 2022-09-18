@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -11,55 +12,58 @@
         <h1 align="center"><marquee >WELCOME TO OUR WEBSITE</marquee></h1>
         <hr>
         <nav>
-        <a href="#">Home</a>
-        <a href="">About</a>
+        <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li><a href="">About</a></li>
+        </ul>
         </nav>
-        <hr>
+        <hr id="space">
         
            
             
         
                     <form action="Post">
-                        <label>Team Jersey</label>
-                        <input type="search" required><br><br>
+                        
+                            <label class="input">Team Jersey</label>
+                            <input class="options" type="search" required><br><br>
+                     
         
-                        <label> Jersey Size </label>  
-<select>  
-<option value = "small">S
-</option>  
-<option value = "medium"> M
-</option>  
-<option value = "audi"> L
-<option value = "skoda"> XL
-</option>  
+                        <label class="input"> Jersey Size </label>  
+<select id="first" class="options">  
+<option >S</option>  
+<option >M</option>  
+<option > L</option>
+<option > XL</option>  
 </select>  <br><br>
         
         
-                        <label>Quantity</label>
-                        <input type="Number"><br><br>
+                        <label class="input">Quantity</label>
+                        <input id="second" class="options"type="Number"><br><br>
         
-                        <label>Required Date</label>
-                        <input type="date"><br><br>
+                        <label class="input">Required Date</label>
+                        <input id="third"class="options"type="date"><br><br>
         
-                        <label> T-Shirt Types:</label>
+                        <label class="input"> T-Shirt Types:</label>
                         
                       <table>
                           
                             <tr>
                                 
-                                <td><input type="image" src="rm.jpeg" width="300"height="250"></input></td>
-                                <td><input type="image" src="realmadrid.jpg" width="300"height="250"></td>
-                                <td><input type="image" src="marcelo.jpg" width="300"height="250"><br><br></td>
+                                <td><input class="tshirt" type="image" src="rm.jpeg" width="300"height="250"></input></td>
+                                <td><input class="tshirt" type="image" src="realmadrid.jpg" width="300"height="250"></td>
+                                <td><input class="tshirt" type="image" src="marcelo.jpg" width="300"height="250"></td>
                             </tr>
-                            <tr>
-<td><center><input type="checkbox">Home</center></td>
-<td><center><input type="checkbox">Away</center></td>
-<td><center><input type="checkbox">Friendly</center></td>
+                             <tr>
+                                <td><center><input type="checkbox">Home</center></td>
+                                <td><center><input id="one"type="checkbox">Away</center></td>
+                                <td><center><input id="two"type="checkbox">Friendly</center></td>
                             </tr>
                       </table>
                         
-                        <label>T-Shirt Color</label>
-                        <input type="color"><br><br>
+                        <div id="three">
+                            <label class="input">T-Shirt Color</label>
+                            <input id="fourth" type="color"><br><br>
+                        </div>
         
         
                         <button type="button" class="btn btn-success">Submit</button>
@@ -68,23 +72,23 @@
                 
         <hr>
         <center>
-            <h1>Shopping Details</h1>
+            <h1>Transaction Details</h1>
         </center>
         <hr>
         <form>
-            <label for="email">Enter your Name:</label>
-            <input type="name" ><br><br>
+            <label  class="input">Enter your Name:</label>
+            <input id="input1"type="name" ><br><br>
 
-            <label for="email">Enter your Contact:</label>
-            <input type="tel" id="email" name="email"><br><br>
+            <label  class="input">Enter your Contact:</label>
+            <input id="input2" type="tel" id="email" name="email"><br><br>
 
-            <label for="email">Enter your Email:</label>
-            <input type="email" id="email" name="email"><br><br>
+            <label  class="input">Enter your Email:</label>
+            <input id="input3" type="email" id="email" name="email"><br><br>
 
  
-<input name='input_name' type='radio'>Male
-<input name='input_name' type='radio'>Female
-<input name='input_name' type='radio'>Others<br><br>
+<input  class="input" name='input_name' type='radio'>Male
+<input  class="input" name='input_name' type='radio'>Female
+<input  class="input"name='input_name' type='radio'>Others<br><br>
 
 <button type="button" class="btn btn-success">Submit</button>
 
@@ -101,7 +105,7 @@
                 <tr>
                 <td>
             <h2>Instagram</h2>
-            <img src="inst.png" width="75" height="50"></td>
+            <a href="https://www.instagram.com/"><img src="inst.png" width="75" height="50"></a></td>
             <td></td>
             <td></td>
             <td></td>
@@ -109,7 +113,7 @@
             <td></td>
             <td>
                 <h2>Whatsapp</h2>
-                <center><img src="what.png" width="65" height="50"></center></td>
+                <center><a href="https://www.whatsapp.com/"><img src="what.png" width="65" height="50"></center></a></td>
                 <td></td>
             <td></td>
             <td></td>
